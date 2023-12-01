@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Vegetable Market</title>
+    <style>
+        /* Your CSS styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #00897B; /* Updated navigation color */
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            flex: 0 0 30%; /* Adjust the width as needed */
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin: 1rem;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%; /* Make all images take up 100% of the container width */
+            height: auto; /* Maintain the aspect ratio */
+        }
+
+        form {
+            margin-top: 2rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #00897B; /* Updated button color */
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Organic Vegetable Market</h1>
+        <p>Fresh and Healthy</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <center><h2>Welcome to our Organic Vegetable Market</h2></center>
+        <center><p>Explore our selection of fresh and organic vegetables.</p></center>
+    </section>
+
+    <section id="shop">
+        <h2>Shop</h2>
+
+        <div class="product-container">
+            <!-- Add more product listings as needed -->
+            <div class="product">
+                <img src="C:\Users\KIRAN\OneDrive\Documents\imagess\carrot.jpg" alt="Carrot">
+                <h3>Organic Carrot</h3>
+                <p>Rs.25 per half kg</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\KIRAN\OneDrive\Documents\imagess\bottlegourd.jpg" alt="Bottle Gourd">
+                <h3>Organic Bottle Gourd</h3>
+                <p>Rs.35 per half kg</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\KIRAN\OneDrive\Documents\imagess\cauliflower.jpg" alt="Cauliflower">
+                <h3>Organic Cauliflower</h3>
+                <p>Rs.30 per half kg</p>
+                <button>Add to Cart</button>
+            </div>
+	
+            <div class="product">
+                <img src="C:\Users\KIRAN\OneDrive\Documents\imagess\brinjal.jpg" alt="Brinjal">
+                <h3>Organic Brinjal</h3>
+                <p>Rs.25 per half kg</p>
+                <button>Add to Cart</button>
+            </div>
+		
+	        <div class="product">
+                <img src="C:\Users\KIRAN\OneDrive\Documents\imagess\pumkin.jpg" alt="Pumkin">
+                <h3>Organic Pumkin</h3>
+                <p>Rs.50 per half kg</p>
+                <button>Add to Cart</button>
+            </div>
+	
+	        <div class="product">
+                <img src="C:\Users\KIRAN\OneDrive\Documents\imagess\beetroot1.jpg" alt="Beetroot">
+                <h3>Organic Beetroot</h3>
+                <p>Rs.20 per half kg</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or want to place a custom order? Contact us below:</p>
+        
+        <form action="#" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Organic Vegetable Market. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
